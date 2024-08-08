@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="3" time="0.019" timestamp="2024-05-29T15:23:25.358351" hostname="ujjwal-thakur"><testcase classname="test_SampleFile" name="test_sample_one" time="0.000"><failure message="AssertionError: a is not equal to b&#10;assert 10 == 5">def test_sample_one():
+        a = 10
+        b = 5
+&gt;       assert a ==b, "a is not equal to b"
+E       AssertionError: a is not equal to b
+E       assert 10 == 5
+
+test_SampleFile.py:4: AssertionError</failure></testcase><testcase classname="test_SampleFile" name="test_sample_Two" time="0.000" /><testcase classname="test_SampleFile" name="test_sample_Three" time="0.000"><failure message="assert 10 &lt; 5">def test_sample_Three():
+        a = 10
+        b = 5
+    
+&gt;       assert a &lt; b
+E       assert 10 &lt; 5
+
+test_SampleFile.py:19: AssertionError</failure></testcase></testsuite></testsuites>
